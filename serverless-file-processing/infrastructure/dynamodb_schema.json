@@ -1,0 +1,20 @@
+{
+    "TableName": "your-table-name",
+    "KeySchema": [
+      {
+        "AttributeName": "file_name",
+        "KeyType": "HASH"
+      }
+    ],
+    "AttributeDefinitions": [
+      {
+        "AttributeName": "file_name",
+        "AttributeType": "S"
+      }
+    ],
+    "ProvisionedThroughput": {
+      "ReadCapacityUnits": 5,
+      "WriteCapacityUnits": 5
+    }
+  }
+  
