@@ -3,7 +3,6 @@
 
 ## Overview
 
-
 This project automates file processing using AWS serverless technologies. When a file is uploaded to an S3 bucket, an AWS Lambda function is triggered to process the file and store its metadata in DynamoDB.
 
 ## Architecture
@@ -55,5 +54,7 @@ terraform destroy -auto-approve
 - Implement file validation & categorization.
 - Use Step Functions for complex processing workflows.
 
+***(Open for contributions)***
+
 # Contributors
-Ali H. Mughal (AWS. Solutions Architect)
+Ali H. Mughal *(AWS. Solutions Architect)*
